@@ -1,0 +1,33 @@
+.toolbar {
+    margin-top: 20px;
+
+    .logo{
+        height: 63px;
+        width: auto;
+    }
+
+    .v-toolbar__title {
+        color: var(--v-primary-base);
+        font-size: 36px;
+        font-family: 'Fondamento';
+    }
+
+    .menu-item {
+        color: var(--v-primary-base);
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+
+    .v-btn--active {
+        border-bottom: 2px solid var(--v-primary-base);
+    }
+
+    .theme--light.v-btn--active::before {
+        opacity: -1 !important;
+    }
+
+    .theme--light.v-toolbar.v-sheet {
+        background-color: transparent !important;
+    }
+}
