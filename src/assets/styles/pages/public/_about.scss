@@ -1,0 +1,17 @@
+.about {
+    width: 100%;
+    height: 100vh;
+
+   
+    .v-card__text{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about{
+        .feature-title{
+            margin-left: 20px;
+        }
+    }
+}
